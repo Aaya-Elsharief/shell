@@ -1,0 +1,177 @@
+
+<help>
+
+Produced by: Aaya , Ghadeer 
+
+Class: Operating Systems Lab ECOM4001-4063
+
+myshell supports the following commands:
+    cd    clr      dir    echo  environ
+    help  myshell  pause  pwd   quit   exit   
+ 
+
+
+Help for our <<Simple Shell>>
+ i Type a command to run it.
+ ii The builtin commands are :
+   1. ls [optional]       : List files in the current directory or <directory> .
+   2. dir [optional]      : List files in the current directory or <directory> .
+   3. myshell <directory> : take command from files.
+   4. echo <comment>      : Echo the <comment> to standard output.
+   5. cd <directory>      : change current directory to <directory> . 
+   6. clr                 : clears your screen if this is possible.
+   7.cat                  : concatenate files and print on the standard output
+   8.pwd                  : print the name of current/working directory
+   9.pause                : wait for signal
+   10. environ             : List all environment strings. 
+   11. help                : run this command , and provide info about shell.
+   12. quit                : Leave Simple Shell.
+   13. exit               : Leave Simple Shell.
+
+How to write command 
+
+********************************************************************************
+                      help Command
+********************************************************************************
+
+    *when write help , the list of command will appear on secreen
+
+        e.g [ghadeer@debian]  /home/ghadeer/ECOM4001/OSproject $ help
+
+
+
+
+
+
+********************************************************************************
+                      ls Command
+********************************************************************************
+    * you can write ls alone to get the files in cut=rrent directory
+    * you can write ls . to get the files in cutrrent directory
+    * you can write ls .. to get the files in parent directory
+        
+       e.g [ghadeer@debian]  /home/ghadeer/ECOM4001/OSproject $ ls
+f         ile.bat  makefile  readme  s1	shellfinal.c  shellpro.c
+
+
+
+
+
+*******************************************************************************
+                       dir command
+*******************************************************************************
+    * you can write dir alone to get the files in cut=rrent directory
+    * you can write dir . to get the files in cutrrent directory
+    * you can write dir .. to get the files in parent directory
+
+     e.g [ghadeer@debian]  /home/ghadeer/ECOM4001/OSproject $ dir ..
+       Lab1011  Lab2  Lab3  Lab4  Lab5  Lab6  Lab8  Lab9  OSproject
+
+
+
+
+*******************************************************************************
+                       echo command
+*******************************************************************************
+
+    * when you write echo <comment> the comment will be print on new line 
+      e.g   [ghadeer@debian]  /home/ghadeer/ECOM4001/OSproject $ echo Thank u Eng.Safaa   
+            Thank u Eng.Safaa
+
+
+
+*******************************************************************************
+                       cd command
+*******************************************************************************
+
+    * to change your path in terminal write cd <the new path>
+       
+       e.g [ghadeer@debian]  /home/ghadeer/ECOM4001/OSproject $ cd ..
+     the directory has been changed successfully 
+
+            [ghadeer@debian]  /home/ghadeer/ECOM4001 $ 
+
+      //Note that the path of terminal command are also change
+
+*******************************************************************************
+                       clr command
+*******************************************************************************
+
+    * to clear shell screen write clr 
+
+
+
+*******************************************************************************
+                       myshell command
+*******************************************************************************
+
+    *to execute the command listed in file.bat write myshell <path of file.bat>
+
+       e.g myshell ./file.bat
+
+
+*******************************************************************************
+                       cat command
+*******************************************************************************
+
+    * to list files in specific directory write cat <directory> if the file not exist
+       cat will create it .
+         
+       e.g  [ghadeer@debian]  /home/ghadeer/ECOM4001 $ cat OSproject
+ 
+
+
+
+*******************************************************************************
+                       pwd command
+*******************************************************************************
+     * to show the current location write pwd 
+
+       e.g [ghadeer@debian]  /home/ghadeer/ECOM4001 $ pwd
+         /home/ghadeer/ECOM4001
+
+
+
+
+*******************************************************************************
+                       pause command
+*******************************************************************************
+
+      * when write pause the execution of programm stop until you click enter
+
+         
+       e.g [ghadeer@debian]  /home/ghadeer/ECOM4001 $ pause
+               Paused
+               press <Enter> key to continue
+     
+
+
+*******************************************************************************
+                       environ command
+*******************************************************************************
+      * to show a List all environment strings write environ
+
+         
+
+
+*******************************************************************************
+                       quit command
+*******************************************************************************
+       *to exit from our shell write quit 
+
+        e.g [ghadeer@debian]  /home/ghadeer/ECOM4001 $ quit
+
+               Leaving ..
+
+
+
+*******************************************************************************
+                       exit command
+*******************************************************************************
+       *to exit from our shell write exit
+        e.g [ghadeer@debian]  /home/ghadeer/ECOM4001/OSproject $ exit
+
+         Leaving ..
+
+
+
